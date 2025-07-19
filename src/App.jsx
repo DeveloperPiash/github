@@ -1,10 +1,17 @@
+import Banner from "./componenets/Banner"
+import Container from "./componenets/Container"
+import Header from "./componenets/Header"
+import Navbar from "./componenets/Navbar"
 
 function App() {
 
 
   return (
     <>
-    <h1>This is for github & netlifly test</h1>
+    <Container/>
+    <Header/>
+    <Navbar/>
+    <Banner/>
     </>
   )
 }
